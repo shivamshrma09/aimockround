@@ -5,3 +5,4 @@ pandas
 numpy
 scikit-learn
 accelerate==0.24.0
+gunicorn
