@@ -84,7 +84,7 @@ class InterviewController:
         score_match = re.search(r'Score:\s*(\d+)', text)
         if score_match:
             score = int(score_match.group(1))
-            return max(0, min(100, score))  # Ensure score is between 0-100
+            return max(0, min(100, score))  # Enre score is between 0-100
         return 50  # Default score if extraction fails
 
     def validate_inputs(self, data):

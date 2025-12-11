@@ -25,7 +25,7 @@ POST /api/coding
   "company_Name": "TechCorp",
   "role": "Software Engineer",
   "exprences": 3,
-  "package": 100,
+  "package": 100000,
   "start": 0,
   "previous_questions": "",
   "previous_answer": "",
@@ -40,7 +40,7 @@ POST /api/coding
 ## 🛠️ Local Setup
 
 ```bash
-pip install -r requirements_render.txt
+pip install -r requirements.txt
 python app.py
 ```
 
@@ -63,9 +63,61 @@ python app.py
 }
 ```
 
+## 🎯 Supported Roles
+
+- Software Engineer
+- Frontend Engineer
+- Backend Engineer
+- DevOps Engineer
+- Mobile Developer
+- Full Stack Engineer
+- Data Engineer
+- ML Engineer
+- QA Engineer
+- Security Engineer
+- Product Manager
+
+## 🏢 Supported Companies
+
+- Google
+- Microsoft
+- Amazon
+- Meta
+- Apple
+- Netflix
+- Uber
+- Airbnb
+- Spotify
+- OpenAI
+- CrowdStrike
+
 ## 🚀 Deployment
 
 Deployed on Render for fast, reliable API responses.
+
+## 📁 Project Structure
+
+```
+mockround.ai/
+├── app.py                              # Main Flask application
+├── requirements.txt                    # Dependencies
+├── interview_data.csv                  # Company-role mappings
+├── technical_interview_questions.csv   # Technical questions dataset
+├── hr_round_questions.csv             # HR questions dataset
+├── behavioral_round_questions.csv     # Behavioral questions dataset
+└── README.md                          # Project documentation
+```
+
+## 🤖 AI Model
+
+- **Model**: Microsoft Phi-3.5-mini-instruct
+- **Features**: Role-specific question generation
+- **Scoring**: Intelligent feedback with 0-100 scoring
+- **Follow-ups**: Adaptive questioning based on performance
+
+## 💡 College Startup
+
+Built as a college-level startup project for revolutionizing interview preparation and assessment.
 
 ---
 **Built with ❤️ for better interviews**
