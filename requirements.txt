@@ -1,8 +1,9 @@
 flask==2.3.3
 transformers==4.35.0
-torch>=2.0.0
+torch>=2.0.0 --index-url https://download.pytorch.org/whl/cpu
 pandas
 numpy
 scikit-learn
 accelerate==0.24.0
 gunicorn
+tokenizers==0.14.1 --only-binary=tokenizers
